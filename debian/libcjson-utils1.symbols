@@ -1,0 +1,15 @@
+libcjson_utils.so.1 libcjson-utils1 #MINVER#
+ cJSONUtils_AddPatchToArray@Base 1.6.0
+ cJSONUtils_ApplyPatches@Base 1.6.0
+ cJSONUtils_ApplyPatchesCaseSensitive@Base 1.6.0
+ cJSONUtils_FindPointerFromObjectTo@Base 1.6.0
+ cJSONUtils_GenerateMergePatch@Base 1.6.0
+ cJSONUtils_GenerateMergePatchCaseSensitive@Base 1.6.0
+ cJSONUtils_GeneratePatches@Base 1.6.0
+ cJSONUtils_GeneratePatchesCaseSensitive@Base 1.6.0
+ cJSONUtils_GetPointer@Base 1.6.0
+ cJSONUtils_GetPointerCaseSensitive@Base 1.6.0
+ cJSONUtils_MergePatch@Base 1.6.0
+ cJSONUtils_MergePatchCaseSensitive@Base 1.6.0
+ cJSONUtils_SortObject@Base 1.6.0
+ cJSONUtils_SortObjectCaseSensitive@Base 1.6.0

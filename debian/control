@@ -1,0 +1,45 @@
+Source: libcjson
+Priority: optional
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Build-Depends: debhelper (>= 10), cmake
+Standards-Version: 4.1.1
+Section: libs
+Homepage: https://github.com/DaveGamble/cJSON
+Vcs-Git: https://github.com/DaveGamble/cJSON.git
+Vcs-Browser: https://github.com/DaveGamble/cJSON
+
+Package: libcjson-dev
+Section: libdevel
+Architecture: any
+Depends: libcjson1 (= ${binary:Version}), ${misc:Depends}
+Description: Ultralightweight JSON parser in ANSI C - development headers
+ cJSON aims to be the dumbest possible parser that you can get your job done
+ with. It's a single file of C, and a single header file.
+ .
+ This package contains the development headers.
+
+Package: libcjson1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ultralightweight JSON parser in ANSI C
+ cJSON aims to be the dumbest possible parser that you can get your job done
+ with. It's a single file of C, and a single header file.
+
+Package: libcjson-utils-dev
+Section: libdevel
+Architecture: any
+Depends: libcjson-utils1 (= ${binary:Version}), ${misc:Depends}
+Description: Ultralightweight JSON parser in ANSI C - Utils development headers
+ cJSON aims to be the dumbest possible parser that you can get your job done
+ with. It's a single file of C, and a single header file.
+ .
+ This package contains the utils development headers.
+
+Package: libcjson-utils1
+Architecture: any
+Depends: libcjson1 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Ultralightweight JSON parser in ANSI C - Utils
+ cJSON aims to be the dumbest possible parser that you can get your job done
+ with. It's a single file of C, and a single header file.
+ .
+ This package contains the utils library.

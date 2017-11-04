@@ -1,0 +1,17 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 47ff6a2..2413256 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,10 +1,10 @@
+ set(CMAKE_LEGACY_CYGWIN_WIN32 0)
+ cmake_minimum_required(VERSION 2.8.5)
+ 
+-include(GNUInstallDirs)
+-
+ project(cJSON C)
+ 
++include(GNUInstallDirs)
++
+ set(PROJECT_VERSION_MAJOR 1)
+ set(PROJECT_VERSION_MINOR 6)
+ set(PROJECT_VERSION_PATCH 0)

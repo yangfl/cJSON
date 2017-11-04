@@ -1,0 +1,5 @@
+libcjson (1.6.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Yangfl <mmyangfl@gmail.com>  Sat, 04 Nov 2017 12:03:54 +0800
